@@ -20,7 +20,8 @@
     <?php $class = 'col-sm-12'; ?>
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
-      <h2><?php echo $text_address_book; ?></h2>
+      <section class="bgwhite">
+        <h2><?php echo $text_address_book; ?></h2>
       <?php if ($addresses) { ?>
       <table class="table table-bordered table-hover">
         <?php foreach ($addresses as $result) { ?>
@@ -37,6 +38,7 @@
         <div class="pull-left"><a href="<?php echo $back; ?>" class="btn btn-default"><?php echo $button_back; ?></a></div>
         <div class="pull-right"><a href="<?php echo $add; ?>" class="btn btn-primary"><?php echo $button_new_address; ?></a></div>
       </div>
+        </section>
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>

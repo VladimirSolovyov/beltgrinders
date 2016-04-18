@@ -33,7 +33,7 @@
             <?php } ?>
           </ul>
           <?php } ?>
-          <ul class="nav nav-tabs">
+          <ul class="nav nav-tabs" style="margin-bottom:0px;">
             <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
             <?php if ($attribute_groups) { ?>
             <li><a href="#tab-specification" data-toggle="tab"><?php echo $tab_attribute; ?></a></li>
@@ -42,6 +42,7 @@
             <li><a href="#tab-review" data-toggle="tab"><?php echo $tab_review; ?></a></li>
             <?php } ?>
           </ul>
+            <section class="bgwhite">
           <div class="tab-content">
             <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
             <?php if ($attribute_groups) { ?>
@@ -112,13 +113,16 @@
             </div>
             <?php } ?>
           </div>
+            </section>
         </div>
         <?php if ($column_left || $column_right) { ?>
         <?php $class = 'col-sm-6'; ?>
         <?php } else { ?>
         <?php $class = 'col-sm-4'; ?>
         <?php } ?>
+          
         <div class="<?php echo $class; ?>">
+            <section class="bgwhite">
           <div class="btn-group">
             <button type="button" data-toggle="tooltip" class="btn btn-default" title="<?php echo $button_wishlist; ?>" onclick="wishlist.add('<?php echo $product_id; ?>');"><i class="fa fa-heart"></i></button>
             <button type="button" data-toggle="tooltip" class="btn btn-default" title="<?php echo $button_compare; ?>" onclick="compare.add('<?php echo $product_id; ?>');"><i class="fa fa-exchange"></i></button>
@@ -142,23 +146,6 @@
             </li>
             <?php } else { ?>
             <li><span style="text-decoration: line-through;"><?php echo $price; ?></span></li>
-            <li>
-              <h2><?php echo $special; ?></h2>
-            </li>
-            <?php } ?>
-            <?php if ($tax) { ?>
-            <li><?php echo $text_tax; ?> <?php echo $tax; ?></li>
-            <?php } ?>
-            <?php if ($points) { ?>
-            <li><?php echo $text_points; ?> <?php echo $points; ?></li>
-            <?php } ?>
-            <?php if ($discounts) { ?>
-            <li>
-              <hr>
-            </li>
-            <?php foreach ($discounts as $discount) { ?>
-            <li><?php echo $discount['quantity']; ?><?php echo $text_discount; ?><?php echo $discount['price']; ?></li>
-            <?php } ?>
             <?php } ?>
           </ul>
           <?php } ?>
@@ -329,7 +316,9 @@
             <!-- AddThis Button END -->
           </div>
           <?php } ?>
+                 </section>
         </div>
+         
       </div>
       <?php if ($products) { ?>
       <h3><?php echo $text_related; ?></h3>

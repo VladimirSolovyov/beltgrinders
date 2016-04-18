@@ -1,4 +1,5 @@
-<h3><?php echo $heading_title; ?></h3>
+<section class="sellerslist fill-background">
+    <h3 class="sellerslist-header"><?php echo $heading_title; ?></h3>
 <hr>
 <div class="row">
   <?php foreach ($products as $product) { ?>
@@ -50,3 +51,4 @@
   </div>
   <?php } ?>
 </div>
+</section>

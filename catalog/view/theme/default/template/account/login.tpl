@@ -20,9 +20,9 @@
     <?php $class = 'col-sm-12'; ?>
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
-      <div class="row">
-          <div class="well">
-            <p><strong><?php echo $text_i_am_returning_customer; ?></strong></p>
+      <div class="row account-login">
+          <div>
+              <h3><?php echo $text_i_am_returning_customer; ?></h3>
             <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">
               <div class="form-group">
                 <label class="control-label" for="input-email"><?php echo $entry_email; ?></label>
