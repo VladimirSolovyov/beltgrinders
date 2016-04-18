@@ -1,0 +1,24 @@
+2016-04-07 1:50:22 - PHP Notice:  Undefined index: sort_order in /home/a0036987/domains/beltgrinders.ru/public_html/admin/model/design/banner.php on line 37
+2016-04-15 11:49:29 - PHP Notice:  Undefined variable: entry_company in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/view/theme/default/template/account/register.tpl on line 238
+2016-04-15 11:49:29 - PHP Notice:  Undefined variable: company in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/view/theme/default/template/account/register.tpl on line 240
+2016-04-15 11:49:29 - PHP Notice:  Undefined variable: entry_company in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/view/theme/default/template/account/register.tpl on line 240
+2016-04-15 11:49:29 - PHP Notice:  Undefined variable: entry_address_2 in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/view/theme/default/template/account/register.tpl on line 253
+2016-04-15 11:49:29 - PHP Notice:  Undefined variable: address_2 in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/view/theme/default/template/account/register.tpl on line 255
+2016-04-15 11:49:29 - PHP Notice:  Undefined variable: entry_address_2 in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/view/theme/default/template/account/register.tpl on line 255
+2016-04-15 11:49:29 - PHP Notice:  Undefined variable: entry_postcode in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/view/theme/default/template/account/register.tpl on line 268
+2016-04-15 11:49:29 - PHP Notice:  Undefined variable: postcode in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/view/theme/default/template/account/register.tpl on line 270
+2016-04-15 11:49:29 - PHP Notice:  Undefined variable: entry_postcode in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/view/theme/default/template/account/register.tpl on line 270
+2016-04-15 21:12:32 - PHP Notice:  Undefined index: fax in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/model/account/customer.php on line 16
+2016-04-15 21:12:32 - PHP Notice:  Undefined index: company in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/model/account/customer.php on line 20
+2016-04-15 21:12:32 - PHP Notice:  Undefined index: address_2 in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/model/account/customer.php on line 20
+2016-04-15 21:12:32 - PHP Notice:  Undefined index: postcode in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/model/account/customer.php on line 20
+2016-04-15 22:26:06 - PHP Notice:  Undefined index: fax in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/model/account/customer.php on line 16
+2016-04-15 22:26:06 - PHP Notice:  Undefined index: company in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/model/account/customer.php on line 20
+2016-04-15 22:26:06 - PHP Notice:  Undefined index: address_2 in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/model/account/customer.php on line 20
+2016-04-15 22:26:06 - PHP Notice:  Undefined index: postcode in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/model/account/customer.php on line 20
+2016-04-18 1:20:51 - PHP Warning:  ftp_chdir(): Can't change directory to public_html/: No such file or directory in /home/a0036987/domains/beltgrinders.ru/public_html/admin/controller/extension/installer.php on line 299
+2016-04-18 1:23:58 - PHP Warning:  ftp_chdir(): Can't change directory to public_html/: No such file or directory in /home/a0036987/domains/beltgrinders.ru/public_html/admin/controller/extension/installer.php on line 299
+2016-04-18 16:41:59 - PHP Notice:  Undefined index: fax in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/model/account/customer.php on line 16
+2016-04-18 16:41:59 - PHP Notice:  Undefined index: company in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/model/account/customer.php on line 20
+2016-04-18 16:41:59 - PHP Notice:  Undefined index: address_2 in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/model/account/customer.php on line 20
+2016-04-18 16:41:59 - PHP Notice:  Undefined index: postcode in /home/a0036987/domains/beltgrinders.ru/public_html/catalog/model/account/customer.php on line 20
