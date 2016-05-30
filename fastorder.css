@@ -1,0 +1,23 @@
+/*
+    Personal styles for fastorder.ocmod.
+    Use this file to specify their own style or override existing styles for the order form in one click
+    Use "!important" if Bootstrap and template styles not override.
+ */
+
+/* FastOrder button styles */
+button.btn-fastorder{
+    border: 0px solid #076118;
+    border-radius: 0px;
+    /* margin-bottom: 5px; */
+    background-color: #076118;
+}
+
+/* FastOrder modal form styles */
+.modal-fastorder{
+
+}
+
+/* FastOrder modal success styles */
+.modal-fastorder-success{
+
+}
